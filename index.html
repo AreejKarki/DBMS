@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Database Management System (DBMS) - Grade 12</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        ul {
+            margin-top: 0;
+        }
+        code {
+            background-color: #e8e8e8;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Database Management System (DBMS) </h1>
+
+    <section>
+        <h2>1. Data</h2>
+        <p>Data refers to raw facts or unprocessed information. It can be in the form of text, numbers, symbols, images, or sounds. On its own, data has no meaning, but once it is processed, it becomes useful information.</p>
+    </section>
+
+    <section>
+        <h2>2. Data Types</h2>
+        <p>Data types define the kind of value a variable can hold. Common data types in databases are:</p>
+        <ul>
+            <li><strong>Integer:</strong> Whole numbers</li>
+            <li><strong>Float:</strong> Decimal numbers</li>
+            <li><strong>Char:</strong> Single character</li>
+            <li><strong>Varchar:</strong> Variable-length text</li>
+            <li><strong>Date:</strong> Stores calendar date</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. Database</h2>
+        <p>A database is an organized collection of data that allows easy access, management, and updating. It is used to store large amounts of information in a structured format.</p>
+    </section>
+
+    <section>
+        <h2>4. Types of Databases</h2>
+        <p>Databases are organized collections of data, and there are different types based on their structure and how they manage data. The main types of databases include:</p>
+
+        <h3>1. Relational Database</h3>
+        <ul>
+            <li><strong>Structure:</strong> Uses tables (also called relations) consisting of rows and columns.</li>
+            <li><strong>How it works:</strong> Each table represents an entity, and relationships between tables are defined using keys.</li>
+            <li><strong>Example:</strong> MySQL, Oracle, Microsoft SQL Server.</li>
+            <li><strong>Use case:</strong> Suitable for applications needing structured data with complex queries like banking systems, online stores.</li>
+        </ul>
+
+        <h3>2. Hierarchical Database</h3>
+        <ul>
+            <li><strong>Structure:</strong> Data is organized in a tree-like structure with a single root and multiple levels of parent-child relationships.</li>
+            <li><strong>How it works:</strong> Each parent record can have multiple child records but each child has only one parent.</li>
+            <li><strong>Example:</strong> IBM's IMS.</li>
+            <li><strong>Use case:</strong> Useful for applications like file systems or organizational charts.</li>
+        </ul>
+
+        <h3>3. Network Database</h3>
+        <ul>
+            <li><strong>Structure:</strong> Uses a graph structure where each record can have multiple parent and child records (many-to-many relationships).</li>
+            <li><strong>How it works:</strong> More flexible than hierarchical; allows complex relationships.</li>
+            <li><strong>Example:</strong> Integrated Data Store (IDS).</li>
+            <li><strong>Use case:</strong> Suitable for telecommunications and complex data models.</li>
+        </ul>
+
+        <h3>4. Object-Oriented Database</h3>
+        <ul>
+            <li><strong>Structure:</strong> Stores data as objects, similar to object-oriented programming concepts.</li>
+            <li><strong>How it works:</strong> Supports classes, inheritance, and encapsulation allowing data and behavior to be stored together.</li>
+            <li><strong>Example:</strong> db4o, ObjectDB.</li>
+            <li><strong>Use case:</strong> Useful in applications that require complex data types like CAD, multimedia, or scientific data.</li>
+        </ul>
+
+        <h3>5. NoSQL Database (Non-Relational)</h3>
+        <ul>
+            <li><strong>Structure:</strong> Does not rely on tables. Can be document-based, key-value pairs, wide-column stores, or graph databases.</li>
+            <li><strong>How it works:</strong> Designed for scalability and flexible schema.</li>
+            <li><strong>Example:</strong> MongoDB (document), Redis (key-value), Cassandra (wide-column).</li>
+            <li><strong>Use case:</strong> Big data, real-time web applications, social networks.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>5. Software & Domain-Specific Software</h2>
+        <p>Software is a set of programs used to operate computers and execute specific tasks. Domain-specific software is designed for a particular field or industry.</p>
+        <ul>
+            <li><strong>Accounting System:</strong> Manages financial data and transactions.</li>
+            <li><strong>Attendance System:</strong> Tracks presence and absence of individuals.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>6. Database Management System (DBMS)</h2>
+        <p>
+            A <strong>Database Management System (DBMS)</strong> is a software application that enables users to define, create, maintain, and control access to databases.
+            It acts as an intermediary between users and the database, ensuring efficient and secure data management.
+        </p>
+        <p><strong>Key features of DBMS:</strong></p>
+        <ul>
+            <li><strong>Data Organization:</strong> Organizes data in structured formats for easy access and manipulation.</li>
+            <li><strong>Data Integrity:</strong> Maintains accuracy and consistency of data through rules and constraints.</li>
+            <li><strong>Data Security:</strong> Protects data using authentication, access controls, and permissions.</li>
+            <li><strong>Data Sharing:</strong> Allows multiple users to access and work on data concurrently without conflict.</li>
+            <li><strong>Backup and Recovery:</strong> Automatically backs up data and restores it in case of failure.</li>
+            <li><strong>Query Processing:</strong> Supports powerful query languages like SQL for data retrieval and modification.</li>
+            <li><strong>Transaction Management:</strong> Ensures that all database operations are completed fully or not at all, preserving data consistency.</li>
+            <li><strong>Types of DBMS:</strong> Includes relational, hierarchical, network, object-oriented, and NoSQL systems.</li>
+        </ul>
+        <p>Popular DBMS software includes MySQL, Oracle Database, Microsoft SQL Server, PostgreSQL, and MongoDB.</p>
+    </section>
+
+    <section>
+        <h2>7. Database Tools</h2>
+        <p>Tools help manage and interact with databases. Examples include:</p>
+        <ul>
+            <li>phpMyAdmin</li>
+            <li>Oracle SQL Developer</li>
+            <li>HeidiSQL</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>8. Server</h2>
+        <p>A server is a system that provides resources and services to other computers (clients) over a network. Servers come in various types depending on their role:</p>
+        <ul>
+            <li><strong>Database Server:</strong> Hosts databases and processes data requests (e.g., MySQL Server, Oracle Database Server).</li>
+            <li><strong>Web Server:</strong> Serves web pages to clients (e.g., Apache HTTP Server, Nginx).</li>
+            <li><strong>File Server:</strong> Stores and manages files shared over a network (e.g., Windows File Server, Samba).</li>
+            <li><strong>Mail Server:</strong> Manages sending and receiving emails (e.g., Microsoft Exchange Server, Postfix).</li>
+            <li><strong>Application Server:</strong> Runs specific applications for clients (e.g., IBM WebSphere, JBoss).</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>9. SQL Commands</h2>
+        <p>SQL (Structured Query Language) is used to communicate with databases. It includes different types of commands:</p>
+
+        <h3>Data Definition Language (DDL)</h3>
+        <p>Commands that define or modify the structure of database objects.</p>
+        <ul>
+            <li><strong>CREATE</strong> - Creates a new table or database.<br>
+                Example:<br>
+                <code>CREATE TABLE Students (StudentID INT PRIMARY KEY, Name VARCHAR(50), Age INT);</code>
+            </li>
+            <li><strong>ALTER</strong> - Modifies an existing table.<br>
+                Example:<br>
+                <code>ALTER TABLE Students ADD COLUMN Email VARCHAR(100);</code>
+            </li>
+            <li><strong>DROP</strong> - Deletes a table or database.<br>
+                Example:<br>
+                <code>DROP TABLE Students;</code>
+            </li>
+        </ul>
+
+        <h3>Data Manipulation Language (DML)</h3>
+        <p>Commands used to manipulate data within tables.</p>
+        <ul>
+            <li><strong>INSERT</strong> - Adds new records.<br>
+                Example:<br>
+                <code>INSERT INTO Students (StudentID, Name, Age) VALUES (1, 'Areej', 18);</code>
+            </li>
+            <li><strong>UPDATE</strong> - Changes existing records.<br>
+                Example:<br>
+                <code>UPDATE Students SET Age = 19 WHERE StudentID = 1;</code>
+            </li>
+            <li><strong>DELETE</strong> - Removes records.<br>
+                Example:<br>
+                <code>DELETE FROM Students WHERE StudentID = 1;</code>
+            </li>
+        </ul>
+
+        <h3>Data Query Language (DQL)</h3>
+        <p>Commands used to query or retrieve data.</p>
+        <ul>
+            <li><strong>SELECT</strong> - Fetches data from tables.<br>
+                Example:<br>
+                <code>SELECT Name, Age FROM Students WHERE Age &gt; 17;</code>
+            </li>
+        </ul>
+
+        <h3>Data Control Language (DCL)</h3>
+        <p>Commands that control access to the database.</p>
+        <ul>
+            <li><strong>GRANT</strong> - Gives privileges to users.<br>
+                Example:<br>
+                <code>GRANT SELECT ON Students TO 'user1';</code>
+            </li>
+            <li><strong>REVOKE</strong> - Removes privileges.<br>
+                Example:<br>
+                <code>REVOKE SELECT ON Students FROM 'user1';</code>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>10. CRUD Operations</h2>
+        <p>
+            CRUD stands for <strong>Create, Read, Update, and Delete</strong>, which are the four basic operations used to manage data in a database. These operations allow users to add new information (Create), retrieve or view existing information (Read), modify or change existing data (Update), and remove unwanted or obsolete data (Delete). Together, CRUD operations form the foundation of working with databases, enabling users to interact with and maintain data effectively. For example, when you register for an account on a website, the system creates a new record in the database. When you log in and view your profile, the system reads your data. If you update your contact information, the system performs an update operation, and if you decide to delete your account, the system deletes the record. These operations are typically implemented using SQL commands such as INSERT (Create), SELECT (Read), UPDATE (Update), and DELETE (Delete).
+        </p>
+        <p><strong>CRUD operations include:</strong></p>
+        <ul>
+            <li><strong>Create:</strong> Adding new data or records to the database.</li>
+            <li><strong>Read:</strong> Retrieving or viewing existing data.</li>
+            <li><strong>Update:</strong> Modifying or changing existing data.</li>
+            <li><strong>Delete:</strong> Removing data that is no longer needed.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>11. Keys in Database</h2>
+        <p>Keys are important attributes in a database that help uniquely identify records and establish relationships between tables. The primary key ensures each record is unique, while foreign keys link tables together. Candidate keys are possible choices for primary keys, and composite keys combine multiple fields to create a unique identifier.</p>
+        <p><strong>Types of keys:</strong></p>
+        <ul>
+            <li><strong>Primary Key:</strong> Uniquely identifies each record in a table.</li>
+            <li><strong>Foreign Key:</strong> Links a field in one table to the primary key in another table.</li>
+            <li><strong>Candidate Key:</strong> Any field or combination of fields that could serve as a primary key.</li>
+            <li><strong>Composite Key:</strong> A key made up of two or more columns to uniquely identify a record.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>12. Constraints on Database</h2>
+        <p>Constraints are rules applied to database columns to ensure the validity, accuracy, and integrity of the data stored. They prevent incorrect data entry and maintain relationships between tables.</p>
+        <p><strong>Common constraints:</strong></p>
+        <ul>
+            <li><strong>NOT NULL:</strong> Ensures a column cannot have empty (null) values.</li>
+            <li><strong>UNIQUE:</strong> Ensures all values in a column are different.</li>
+            <li><strong>PRIMARY KEY:</strong> Combination of NOT NULL and UNIQUE, uniquely identifies each record.</li>
+            <li><strong>FOREIGN KEY:</strong> Ensures the value in a column matches a value in another table’s primary key, maintaining referential integrity.</li>
+            <li><strong>CHECK:</strong> Ensures that values meet a specific condition or range.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>13. Anomalies in Database</h2>
+        <p>Anomalies occur due to poor database design and can cause inconsistent or incorrect data during data operations such as insertions, deletions, or updates.</p>
+        <p><strong>Types of anomalies:</strong></p>
+        <ul>
+            <li><strong>Insertion Anomaly:</strong> Difficulty inserting data because some data is missing or dependent data does not exist.</li>
+            <li><strong>Deletion Anomaly:</strong> Loss of important data unintentionally when other data is deleted.</li>
+            <li><strong>Update Anomaly:</strong> Data inconsistencies that happen when redundant data is updated partially or incorrectly.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>14. Normalization in Database</h2>
+        <p>Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves dividing large tables into smaller related tables and defining relationships between them.</p>
+        <p><strong>Common normal forms:</strong></p>
+        <ul>
+            <li><strong>1NF (First Normal Form):</strong> Remove repeating groups; each column should hold atomic values.</li>
+            <li><strong>2NF (Second Normal Form):</strong> Remove partial dependency; every non-key attribute must depend on the whole primary key.</li>
+            <li><strong>3NF (Third Normal Form):</strong> Remove transitive dependency; non-key attributes should depend only on the primary key.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>15. Database Security</h2>
+        <p>Database security involves protecting the database from unauthorized access, misuse, or threats to ensure data confidentiality, integrity, and availability. It includes various measures to safeguard the data against accidental or malicious damage.</p>
+        <p><strong>Key aspects of database security:</strong></p>
+        <ul>
+            <li><strong>Access Control:</strong> Restricts who can view or manipulate data through user roles and permissions.</li>
+            <li><strong>Authentication:</strong> Verifies the identity of users before granting access.</li>
+            <li><strong>Encryption:</strong> Encodes data so unauthorized users cannot read it even if accessed.</li>
+            <li><strong>Backup and Recovery:</strong> Maintains copies of data to restore in case of data loss or corruption.</li>
+            <li><strong>Audit Trails:</strong> Logs activities in the database to monitor and detect suspicious behavior.</li>
+            <li><strong>Physical Security:</strong> Protects hardware and physical storage from damage or theft.</li>
+        </ul>
+    </section>
+</body>
+</html>
